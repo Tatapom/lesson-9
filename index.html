@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу-->
+
+<html lang="ru">
+  <!--Оболочка документа, указывает язык содержимого-->
+
+  <!--Заголовок страницы, контейнер для других важных данных (не отображается)-->
+
+  <head>
+    <!--Кодировка страницы-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Заголовок в странице браузера-->
+    <title>Пример верстка (урок 9)</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <!--Отображаемое тело страницы-->
+
+
+  <body>
+    <!--Cамый главный контейнер общий-->
+
+    <div class="content">
+      <div class="content-top">
+        <!--самая вверхняя надпись-->
+        <div class="content-top-category">Travel</div>
+        <!--заголовок-->
+        <h1 class="content-top-title">
+          Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.
+        </h1>
+      </div>
+
+      <!--Переходим к картинке блок общ для картинки-->
+      <div class="content-image"></div>
+      <!--блок куда встав. карт. -- пункт-->
+      <div class="content-image-item">
+        <img src="img/light_man_copy_26.jpg" alt="картинка" />
+      </div>
+
+      <!--Нижний блок общий-->
+      <div class="content-bottom"></div>
+      <!--блок для текстового поля-->
+      <div class="content-bottom-text">
+        <p>
+          Donec aredsed odio dui. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros. Morbi leo risus, porta ac consectetur ac,
+          vestibulum at eros. Donec ullamcorper nulla non metus auctor
+          fringilla.
+        </p>
+
+        <p>
+          Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+          vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+          venenatis vestibulum.
+        </p>
+      </div>
+
+      <!--нижний блок инфо, нижнего общего блока-->
+      <div class="content-bottom-info">
+        <!--пропис. для списка-->
+        <ul class="content-bottom-info-list">
+          <li>Put on this page information about your product</li>
+          <li>A detailed description of your product</li>
+          <li>Tell us about the advantages and merits</li>
+          <li>Associate the page with the payment system</li>
+        </ul>
+      </div>
+
+      <!--у нас есть стиллизированная ссылка, под кнопку-->
+      <a target="_blank" href="http://Google.com" class="content-bottom-info-link">
+        <!--у нас есть подпись на кнопке и стрелка на кнопке иконка и заранее добавл. span-->
+        <span>Full Story</span>
+      </a>
+    </div>
+  </body>
+
+</html>
